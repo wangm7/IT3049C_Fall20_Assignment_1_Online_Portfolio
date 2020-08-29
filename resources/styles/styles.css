@@ -1,0 +1,31 @@
+.section{
+  display: grid;
+}
+#header{
+  grid-area: header;
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+
+.section_right{
+  padding-top: 50px;
+  padding-right: 700px;
+
+}
+.section_left{
+  padding-top: 100px;
+  padding-left: 500px;
+}
+
+.section_right{
+  grid-area: right;
+}
+.section_left{
+  grid-area: left;
+
+}
+
+
